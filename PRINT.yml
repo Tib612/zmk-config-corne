@@ -1,7 +1,7 @@
-layout: {zmk_keyboard: corne, _url: 'https://keymap-drawer.streamlit.app'}
+layout: {zmk_keyboard: corne, _url: 'https://keymap-drawer.streamlit.app/?example_yaml=showcase.yaml'}
 layers:
-  default: [ESC,'', '', '', '', '', '', '', '', '', '', 'BSPC', 'LSHFT', '', '', '', '', '', '', '', '', '', '', '', 'LCTRL', '', '', '', '', '', '', '', '', '', '', ESC, LGUI, lower, SPACE, RET,
-    raise, RALT]
+  default: [ESC,'', '', '', '', '', '', '', '', '', '', 'BSPC', 'LSHFT', '', '', '', '', '', '', '', '', '', '', '', 'LCTRL', '', '', '', '', '', '', '', '', '', '', ESC, RALT, lower, SPACE, RET,
+    raise, LGUI]
   lower:
   - TAB
   - ''
@@ -14,7 +14,7 @@ layers:
   - ''
   - ''
   - ''
-  - BSPC
+  - DEL
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -39,12 +39,12 @@ layers:
   - ''
   - ''
   - ''
-  - LGUI
+  - RALT
   - {type: held}
   - SPACE
   - RET
   - ''
-  - RALT
+  - LGUI
   raise:
   - TAB
   - ''
@@ -57,7 +57,7 @@ layers:
   - ''
   - ''
   - ''
-  - BSPC
+  - DEL
   - LCTRL
   - ''
   - ''
@@ -82,9 +82,9 @@ layers:
   - ''
   - ''
   - ''
-  - LGUI
+  - RALT
   - ''
   - SPACE
   - RET
   - {type: held}
-  - RALT
+  - LGUI
